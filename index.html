@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fd8d53ee3b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>커플 기념일 계산기</title>
+</head>
+<body id="bg">
+    <div class="calculator">
+		<ul class="top">
+            <li>커플 기념일 계산기</li>
+            <li><i class="fas fa-heartbeat"></i></li>
+        </ul>
+        <div class="number-area">
+            <p class="show-date">1995</p>
+        </div>
+        <div class="first-day-area">
+            <ul class="first-day">
+                <li><i class="fas fa-grin-hearts"></i>우리 처음 만난 날은?</li>
+                <li><input type="text" id="first-year" value=""></li>
+                <li>년</li>
+                <li><input type="text" id="first-month" value=""></li>
+                <li>월</li>
+                <li><input type="text" id="first-day" value=""></li>
+                <li>일</li>
+                <li><button type="submit" id="submit">입력</button></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="button-group">
+                <li id="today">
+                    <p>오늘 몇일째?</p>
+                    <p><i class="far fa-heart"></i></p>
+                </li>
+                <li id="days500" class="unique">
+                    <p>500일</p>
+                    <p><i class="far fa-heart"></i></p>
+                </li>
+                <li id="days100" class="unique">
+                    <p>100일</p>
+                    <p><i class="far fa-heart"></i></p>
+                </li>
+                <li id="year1" class="unique">
+                    <p>1년</p>
+                    <p><i class="far fa-heart"></i></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>

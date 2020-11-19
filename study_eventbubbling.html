@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fd8d53ee3b.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- 해결해야할 코드 -->
+    <ul>
+        <li id="sharp">
+            <p>오늘 몇일째?</p>
+            <p><i class="far fa-heart"></i></p>
+        </li>
+        <li id="pencile">
+            <p>500일</p>
+            <p><i class="far fa-heart"></i></p>
+        </li>
+        <li id="eraser">
+            <p>100일</p>
+            <p><i class="far fa-heart"></i></p>
+        </li>
+        <li id="paper">
+            <p>1년</p>
+            <p><i class="far fa-heart"></i></p>
+        </li>
+    </ul>
+
+    <!-- simple code로 연습해보자 -->
+    <ul>
+        <li id="start">시작</li>
+        <li id="run">달리기</li>
+        <li id="fast">빠르다</li>
+        <li id="goal">결승선</li>
+    </ul>
+
+    <script>
+        AA = (event)=> {
+            let bb = event.currentTarget.id;
+            console.log(bb);
+        }        
+        let a = document.querySelector('#sharp');
+        a.addEventListener('click',AA, true);
+    </script>
+</body>
+</html>
+https://www.youtube.com/watch?v=sfKDOOJgbSI
