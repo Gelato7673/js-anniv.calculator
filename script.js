@@ -79,7 +79,7 @@ submit.addEventListener("click", firstmeet);
 let today = document.querySelector("#today");
 today.addEventListener("click", clickToday);
 
-//500일
+//날짜별 함수
 let unique = document.querySelectorAll(".unique");
 unique.forEach(element => {
     element.addEventListener("click", calcDate);
